@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | Thrill Wave</title>
-  <meta name="description" content="Thrill Wave video production and creative strategy.">
+  <title>Thrill Wave | Video Production</title>
+  <meta name="description" content="Thrill Wave is a video production and creative strategy company built around real insight, strong storytelling, and work that lands.">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -13,13 +13,12 @@
       <img src="assets/brand/thrillwave/logo-black-wordmark.png" alt="Thrill Wave">
     </a>
 
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
       <span></span><span></span><span></span>
-      <span class="sr-only">Menu</span>
     </button>
 
     <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-      <a href="index.html">Home</a>
+      <a class="active" href="index.html">Home</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="sitrep.html">SITREP</a>
       <a href="contact.html">Contact</a>
@@ -28,11 +27,160 @@
   </header>
 
   <main>
-    <section class="placeholder">
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="hero-kicker">Real insight to real trust,</p>
+        <h1>Captured on<br>camera</h1>
+        <p class="hero-copy">We refine your narrative, build audience trust, and drive real impact.</p>
+        <a class="button button-dark" href="#what-we-do">Watch our reel <span>→</span></a>
+      </div>
+    </section>
+
+    <section id="what-we-do" class="section section-light intro-section">
+      <div class="container narrow">
+        <h2>What we do</h2>
+        <p>We find the right story, film it, and make sure it lands.</p>
+
+        <div class="video-card" role="img" aria-label="Thrill Wave video reel placeholder">
+          <img src="assets/portfolio/stills/camera-crew.webp" alt="Thrill Wave camera crew on set">
+          <div class="video-overlay">
+            <span class="play-button" aria-hidden="true">▶</span>
+            <strong>Thrill Wave Reel</strong>
+            <small>Vimeo / YouTube embed coming next</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark clients-section">
       <div class="container">
-        <p class="eyebrow">Thrill Wave</p>
-        <h1>Home</h1>
-        <p>This page is ready for the Wix-replica build.</p>
+        <h2>Clients</h2>
+        <p class="section-lead">From Fortune 500s to cultural institutions, the work earns the room.</p>
+
+        <div class="logo-grid">
+          <img src="assets/clients/relentless-beats.png" alt="Relentless Beats">
+          <img src="assets/clients/nfl.png" alt="NFL">
+          <img src="assets/clients/state-farm.png" alt="State Farm">
+          <img src="assets/clients/nbc.png" alt="NBC">
+          <img src="assets/clients/ufc.png" alt="UFC">
+          <img src="assets/clients/thermo-fisher.png" alt="Thermo Fisher Scientific">
+          <img src="assets/clients/golf-digest.png" alt="Golf Digest">
+          <img src="assets/clients/boston-scientific.png" alt="Boston Scientific">
+          <img src="assets/clients/uber.png" alt="Uber">
+          <img src="assets/clients/ubs.png" alt="UBS">
+          <img src="assets/clients/firstbank.png" alt="FirstBank">
+          <img src="assets/clients/aura.png" alt="Aura">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light work-section">
+      <div class="container">
+        <h2>Our work</h2>
+        <p class="section-lead">From strategy to screen, we create videos that deliver.</p>
+
+        <div class="work-grid">
+          <article class="work-card">
+            <img src="assets/portfolio/stills/business-consult.webp" alt="Business interview production still">
+            <h3>UBS & Finnerty Partners - Service Without Compromise</h3>
+          </article>
+          <article class="work-card">
+            <img src="assets/portfolio/stills/dental-procedure.webp" alt="Medical production still">
+            <h3>Andres Plastic Surgery - Your Body, High Standards</h3>
+          </article>
+          <article class="work-card">
+            <img src="assets/portfolio/stills/crew-location.webp" alt="Construction production still">
+            <h3>Rumco - Building With Integrity</h3>
+          </article>
+          <article class="work-card">
+            <img src="assets/portfolio/stills/event-hands.webp" alt="Live event production still">
+            <h3>Music Celebrations International - Ireland</h3>
+          </article>
+          <article class="work-card">
+            <img src="assets/portfolio/stills/camera-crew.webp" alt="Event video production still">
+            <h3>Relentless Beats - Decadence Arizona 2025 Aftermovie</h3>
+          </article>
+          <article class="work-card">
+            <img src="assets/portfolio/stills/dentist-consult.webp" alt="Healthcare campaign production still">
+            <h3>ITCA WIC - Dear Mom</h3>
+          </article>
+        </div>
+
+        <div class="center">
+          <a class="button button-dark" href="portfolio.html">Portfolio <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark sitrep-preview">
+      <div class="container">
+        <h2>How we're different: SITREP</h2>
+        <p class="section-lead wide">Before we pick up a camera, we figure out what's actually worth making. We map where your comms are landing, where they're failing, and which untold story has the highest probability of shifting perception. We call that map a Situation Report, aka SITREP.</p>
+
+        <div class="sitrep-grid">
+          <article class="sitrep-card">
+            <span>01</span>
+            <h3>Ingest</h3>
+            <h4>Full-spectrum intelligence</h4>
+            <p>Internal data, audience intelligence, public sentiment, market signals, competitive positioning. Then wider: geopolitical factors, industry shifts, emerging narratives.</p>
+          </article>
+          <article class="sitrep-card">
+            <span>02</span>
+            <h3>Synthesize</h3>
+            <h4>AI-driven sense-making</h4>
+            <p>LLMs on the full data set. Blind spots in comms, trust gaps with audiences, narrative opportunities competitors missed.</p>
+          </article>
+          <article class="sitrep-card">
+            <span>03</span>
+            <h3>Execute</h3>
+            <h4>Documentary-grade production</h4>
+            <p>Real environments, real people, observational production. Distribution plan built alongside production.</p>
+          </article>
+        </div>
+
+        <div class="center">
+          <a class="button button-light" href="sitrep.html">See how it works <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light team-section">
+      <div class="container">
+        <h2>The team</h2>
+        <p class="section-lead wide">We built this company because we wanted to do work that actually matters, and stay close enough to the work to make sure it does.</p>
+
+        <div class="team-grid">
+          <article class="team-card">
+            <img src="assets/team/tony-swainn.webp" alt="Tony Swainn">
+            <div class="team-copy">
+              <h3>Tony Swainn</h3>
+              <p>Co-Founder · Director/DP</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <img src="assets/team/ari-everett.webp" alt="Ari Everett">
+            <div class="team-copy">
+              <h3>Ari Everett</h3>
+              <p>Co-Founder · Producer/Manager</p>
+            </div>
+          </article>
+          <article class="team-card">
+            <img src="assets/team/chris-kuzman.webp" alt="Chris Kuzman">
+            <div class="team-copy">
+              <h3>Chris Kuzman</h3>
+              <p>Co-Founder · Strategy</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark cta-section">
+      <div class="container">
+        <h2>Talk to us about your next project</h2>
+        <p>Let's chat about your market, your story and what working with us looks like.</p>
+        <a class="button button-light" href="contact.html">Message us <span>→</span></a>
       </div>
     </section>
   </main>
@@ -49,7 +197,9 @@
       </div>
       <div>
         <strong>Follow</strong>
-        <span>Social links coming next</span>
+        <div class="social-row" aria-label="Social media">
+          <span>f</span><span>𝕏</span><span>in</span><span>◎</span>
+        </div>
       </div>
     </div>
   </footer>
