@@ -13,3 +13,14 @@ Canonical URLs, Open Graph metadata, structured data, `robots.txt`, `sitemap.xml
 
 ## Cloudflare Pages
 No build command is required. Publish the repository root. `_headers` contains basic security/cache headers and `_redirects` maps clean public routes to static files.
+
+
+## Quality checks
+Every push and pull request runs a zero-dependency site audit in GitHub Actions. It checks local links/assets, page titles, descriptions, canonicals, H1 structure, image alt text, duplicate IDs, required production files, and JavaScript syntax.
+
+Run locally:
+
+```bash
+python scripts/audit.py
+node --check js/main.js
+```
