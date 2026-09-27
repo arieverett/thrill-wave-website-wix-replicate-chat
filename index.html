@@ -81,28 +81,46 @@
         <p class="section-lead">From strategy to screen, we create videos that deliver.</p>
 
         <div class="work-grid">
-          <article class="work-card">
-            <img src="assets/portfolio/stills/business-consult.webp" alt="Business interview production still">
+          <article class="work-card video-work-card">
+            <button class="video-launch" type="button" data-youtube="Qd40htwEmJM" aria-label="Play UBS & Finnerty Partners - Service Without Compromise">
+              <img src="assets/portfolio/stills/business-consult.webp" alt="UBS & Finnerty Partners - Service Without Compromise">
+              <span class="card-play">▶</span>
+            </button>
             <h3>UBS & Finnerty Partners - Service Without Compromise</h3>
           </article>
-          <article class="work-card">
-            <img src="assets/portfolio/stills/dental-procedure.webp" alt="Medical production still">
+          <article class="work-card video-work-card">
+            <button class="video-launch" type="button" data-youtube="N3yfL_gk_vE" aria-label="Play Andres Plastic Surgery - Your Body, High Standards">
+              <img src="assets/portfolio/stills/dental-procedure.webp" alt="Andres Plastic Surgery - Your Body, High Standards">
+              <span class="card-play">▶</span>
+            </button>
             <h3>Andres Plastic Surgery - Your Body, High Standards</h3>
           </article>
-          <article class="work-card">
-            <img src="assets/portfolio/stills/crew-location.webp" alt="Construction production still">
+          <article class="work-card video-work-card">
+            <button class="video-launch" type="button" data-youtube="CN1IN8xlTVg" aria-label="Play Rumco - Building With Integrity">
+              <img src="assets/portfolio/stills/crew-location.webp" alt="Rumco - Building With Integrity">
+              <span class="card-play">▶</span>
+            </button>
             <h3>Rumco - Building With Integrity</h3>
           </article>
-          <article class="work-card">
-            <img src="assets/portfolio/stills/event-hands.webp" alt="Live event production still">
+          <article class="work-card video-work-card">
+            <button class="video-launch" type="button" data-youtube="oXOPxKmigKA" aria-label="Play Music Celebrations International - Ireland">
+              <img src="assets/portfolio/stills/event-hands.webp" alt="Music Celebrations International - Ireland">
+              <span class="card-play">▶</span>
+            </button>
             <h3>Music Celebrations International - Ireland</h3>
           </article>
-          <article class="work-card">
-            <img src="assets/portfolio/stills/camera-crew.webp" alt="Event video production still">
+          <article class="work-card video-work-card">
+            <button class="video-launch" type="button" data-youtube="pDk121-TCto" aria-label="Play Relentless Beats - Decadence Arizona 2025 Aftermovie">
+              <img src="assets/portfolio/stills/camera-crew.webp" alt="Relentless Beats - Decadence Arizona 2025 Aftermovie">
+              <span class="card-play">▶</span>
+            </button>
             <h3>Relentless Beats - Decadence Arizona 2025 Aftermovie</h3>
           </article>
-          <article class="work-card">
-            <img src="assets/portfolio/stills/dentist-consult.webp" alt="Healthcare campaign production still">
+          <article class="work-card video-work-card">
+            <button class="video-launch" type="button" data-youtube="QlP7wPaFcVU" aria-label="Play ITCA WIC - Dear Mom">
+              <img src="assets/portfolio/stills/dentist-consult.webp" alt="ITCA WIC - Dear Mom">
+              <span class="card-play">▶</span>
+            </button>
             <h3>ITCA WIC - Dear Mom</h3>
           </article>
         </div>
@@ -184,6 +202,13 @@
       </div>
     </section>
   </main>
+  <div class="video-modal" id="video-modal" aria-hidden="true">
+    <div class="video-modal-backdrop" data-video-close></div>
+    <div class="video-modal-dialog" role="dialog" aria-modal="true" aria-label="Video player">
+      <button class="video-modal-close" type="button" data-video-close aria-label="Close video">×</button>
+      <div class="video-frame-wrap"><iframe id="video-frame" title="Thrill Wave video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+  </div>
 
   <footer class="site-footer">
     <div class="container footer-grid">
@@ -198,7 +223,7 @@
       <div>
         <strong>Follow</strong>
         <div class="social-row" aria-label="Social media">
-          <span>f</span><span>𝕏</span><span>in</span><span>◎</span>
+          <a href="https://www.linkedin.com/company/thrillwave" target="_blank" rel="noopener" aria-label="Thrill Wave on LinkedIn">in</a>
         </div>
       </div>
     </div>
