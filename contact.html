@@ -59,12 +59,23 @@
       <p>We are based in Phoenix, AZ, but work all over. The address below is just our mailbox, so don't go there (but feel free to send fan mail).</p>
       <div class="map-frame"><iframe title="Phoenix, Arizona map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Phoenix%2C%20Arizona&output=embed"></iframe></div>
     </div></section>
-    <section class="section zoom-section"><div class="container"><h2>Or zoom us</h2>
-      <div class="scheduler">
-        <div class="scheduler-brand"><img src="assets/brand/thrillwave/logo-white-wordmark.png" alt="Thrill Wave"><div><strong>Chris Kuzman</strong><h3>30 Minute Video Consult</h3><p>30 min · video meeting</p><p>This is a 30-minute call to see how Thrill Wave can help with your next project.</p><a class="text-link" href="mailto:hi@thrillwave.com?subject=30%20Minute%20Video%20Consult">Prefer email? Request a consult →</a></div></div>
-        <div class="scheduler-calendar"><h3>Request a Date</h3><p class="scheduler-help">Choose a weekday. We'll reply with available times and a meeting link.</p><div class="booking-dates" id="booking-dates"></div><a class="button button-dark booking-request" id="booking-request" href="mailto:hi@thrillwave.com?subject=30%20Minute%20Video%20Consult" aria-disabled="true">Request this date <span aria-hidden="true">→</span></a></div>
+    <section class="section zoom-section">
+      <div class="container">
+        <h2>Or zoom us</h2>
+        <div class="calendly-shell" aria-label="Schedule a 30 Minute Video Consult with Chris Kuzman">
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/christhrillwave/30-minute-meeting-clone"
+            style="min-width:320px;height:820px"
+          ></div>
+          <noscript>
+            <p class="calendly-fallback">
+              <a href="https://calendly.com/christhrillwave/30-minute-meeting-clone">Open the Thrill Wave scheduling calendar</a>
+            </p>
+          </noscript>
+        </div>
       </div>
-    </div></section>
+    </section>
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">
@@ -79,6 +90,7 @@
         </div></div>
     </div>
   </footer>
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>
