@@ -1,22 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thrill Wave | Video Production</title>
-  <meta name="description" content="Thrill Wave is a video production and creative strategy company built around real insight, strong storytelling, and work that lands.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thrill Wave | Video Production & Creative Strategy</title>
+  <meta name="description" content="Thrill Wave is a Phoenix video production and creative strategy company creating commercial films, photography and research-led storytelling.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://thrillwave.com/">
+  <link rel="icon" href="assets/brand/thrillwave/logo-color.png" type="image/png">
+  <link rel="preload" as="image" href="assets/blog/camera-rig.webp" fetchpriority="high">
+  <link rel="preconnect" href="https://www.youtube-nocookie.com">
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="Thrill Wave">
+  <meta property="og:title" content="Thrill Wave | Video Production & Creative Strategy">
+  <meta property="og:description" content="Real insight to real trust, captured on camera. Commercial video production and creative strategy from Phoenix, Arizona.">
+  <meta property="og:url" content="https://thrillwave.com/">
+  <meta property="og:image" content="https://thrillwave.com/assets/blog/camera-rig.webp">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "@id":"https://thrillwave.com/#organization",
+  "name":"Thrill Wave",
+  "url":"https://thrillwave.com/",
+  "logo":"https://thrillwave.com/assets/brand/thrillwave/logo-black-wordmark.png",
+  "image":"https://thrillwave.com/assets/blog/camera-rig.webp",
+  "description":"Phoenix-based video production and creative strategy company specializing in commercial video, photography and story-led communications.",
+  "telephone":"+1-480-269-7155",
+  "email":"hi@thrillwave.com",
+  "address":{"@type":"PostalAddress","addressLocality":"Phoenix","addressRegion":"AZ","addressCountry":"US"},
+  "areaServed":{"@type":"Country","name":"United States"},
+  "sameAs":[
+    "https://www.facebook.com/thrillwaveco",
+    "https://x.com/thrillwave_",
+    "https://www.linkedin.com/company/thrillwave",
+    "https://www.instagram.com/thrillwave_"
+  ]
+}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Thrill Wave","url":"https://thrillwave.com/"}</script>
 </head>
 <body>
-  <header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-site-header>
     <a class="brand" href="index.html" aria-label="Thrill Wave home">
-      <img src="assets/brand/thrillwave/logo-white-wordmark.png" alt="Thrill Wave">
+      <img src="assets/brand/thrillwave/logo-white-wordmark.png" alt="Thrill Wave" width="300" height="178">
     </a>
-
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
       <span></span><span></span><span></span>
     </button>
-
     <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
       <a class="active" href="index.html">Home</a>
       <a href="portfolio.html">Portfolio</a>
@@ -25,30 +57,22 @@
       <a href="blog/index.html">Blog</a>
     </nav>
   </header>
-
-  <main>
+  <main id="main">
     <section class="hero">
-      <div class="hero-shade"></div>
-      <div class="hero-content">
+      <div class="hero-content reveal">
         <p class="hero-kicker">Real insight to real trust,</p>
         <h1>Captured on<br>camera</h1>
         <p class="hero-copy">We refine your narrative, build audience trust, and drive real impact.</p>
-        <a class="button button-dark" href="#what-we-do">Watch our reel <span>→</span></a>
+        <a class="button button-dark" href="#reel">Watch our reel <span aria-hidden="true">→</span></a>
       </div>
     </section>
 
-    <section id="what-we-do" class="section section-light intro-section">
+    <section id="reel" class="section section-light intro-section">
       <div class="container narrow">
         <h2>What we do</h2>
         <p>We find the right story, film it, and make sure it lands.</p>
-
-        <div class="video-card" role="img" aria-label="Thrill Wave video reel placeholder">
-          <img src="assets/portfolio/stills/camera-crew.webp" alt="Thrill Wave camera crew on set">
-          <div class="video-overlay">
-            <span class="play-button" aria-hidden="true">▶</span>
-            <strong>Thrill Wave Reel</strong>
-            <small>Vimeo / YouTube embed coming next</small>
-          </div>
+        <div class="embed-shell reel-embed reveal">
+          <iframe src="https://player.vimeo.com/video/1169831417?dnt=1&title=0&byline=0&portrait=0" title="Thrill Wave featured work" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </section>
@@ -57,20 +81,19 @@
       <div class="container">
         <h2>Clients</h2>
         <p class="section-lead">From Fortune 500s to cultural institutions, the work earns the room.</p>
-
-        <div class="logo-grid">
-          <img src="assets/clients/relentless-beats.png" alt="Relentless Beats">
-          <img src="assets/clients/nfl.png" alt="NFL">
-          <img src="assets/clients/state-farm.png" alt="State Farm">
-          <img src="assets/clients/nbc.png" alt="NBC">
-          <img src="assets/clients/ufc.png" alt="UFC">
-          <img src="assets/clients/thermo-fisher.png" alt="Thermo Fisher Scientific">
-          <img src="assets/clients/golf-digest.png" alt="Golf Digest">
-          <img src="assets/clients/boston-scientific.png" alt="Boston Scientific">
-          <img src="assets/clients/uber.png" alt="Uber">
-          <img src="assets/clients/ubs.png" alt="UBS">
-          <img src="assets/clients/firstbank.png" alt="FirstBank">
-          <img src="assets/clients/aura.png" alt="Aura">
+        <div class="logo-grid reveal">
+          <img src="assets/clients/relentless-beats.png" alt="Relentless Beats" loading="lazy">
+          <img src="assets/clients/nfl.png" alt="NFL" loading="lazy">
+          <img src="assets/clients/state-farm.png" alt="State Farm" loading="lazy">
+          <img src="assets/clients/nbc.png" alt="NBC" loading="lazy">
+          <img src="assets/clients/ufc.png" alt="UFC" loading="lazy">
+          <img src="assets/clients/thermo-fisher.png" alt="Thermo Fisher Scientific" loading="lazy">
+          <img src="assets/clients/golf-digest.png" alt="Golf Digest" loading="lazy">
+          <img src="assets/clients/boston-scientific.png" alt="Boston Scientific" loading="lazy">
+          <img src="assets/clients/uber.png" alt="Uber" loading="lazy">
+          <img src="assets/clients/ubs.png" alt="UBS" loading="lazy">
+          <img src="assets/clients/firstbank.png" alt="FirstBank" loading="lazy">
+          <img src="assets/clients/aura.png" alt="Aura" loading="lazy">
         </div>
       </div>
     </section>
@@ -79,55 +102,49 @@
       <div class="container">
         <h2>Our work</h2>
         <p class="section-lead">From strategy to screen, we create videos that deliver.</p>
-
-        <div class="work-grid">
-          <article class="work-card video-work-card">
-            <button class="video-launch" type="button" data-youtube="Qd40htwEmJM" aria-label="Play UBS & Finnerty Partners - Service Without Compromise">
-              <img src="assets/portfolio/stills/business-consult.webp" alt="UBS & Finnerty Partners - Service Without Compromise">
-              <span class="card-play">▶</span>
-            </button>
+        <div class="work-grid"><article class="work-card">
+            <a class="video-launch" href="https://www.youtube.com/watch?v=Qd40htwEmJM" target="_blank" rel="noopener" data-youtube="Qd40htwEmJM" aria-label="Play UBS & Finnerty Partners - Service Without Compromise">
+              <img src="https://i.ytimg.com/vi/Qd40htwEmJM/maxresdefault.jpg" alt="UBS & Finnerty Partners - Service Without Compromise" loading="lazy" decoding="async">
+              <span class="card-play" aria-hidden="true">▶</span>
+            </a>
             <h3>UBS & Finnerty Partners - Service Without Compromise</h3>
           </article>
-          <article class="work-card video-work-card">
-            <button class="video-launch" type="button" data-youtube="N3yfL_gk_vE" aria-label="Play Andres Plastic Surgery - Your Body, High Standards">
-              <img src="assets/portfolio/stills/dental-procedure.webp" alt="Andres Plastic Surgery - Your Body, High Standards">
-              <span class="card-play">▶</span>
-            </button>
+<article class="work-card">
+            <a class="video-launch" href="https://www.youtube.com/watch?v=N3yfL_gk_vE" target="_blank" rel="noopener" data-youtube="N3yfL_gk_vE" aria-label="Play Andres Plastic Surgery - Your Body, High Standards">
+              <img src="https://i.ytimg.com/vi/N3yfL_gk_vE/maxresdefault.jpg" alt="Andres Plastic Surgery - Your Body, High Standards" loading="lazy" decoding="async">
+              <span class="card-play" aria-hidden="true">▶</span>
+            </a>
             <h3>Andres Plastic Surgery - Your Body, High Standards</h3>
           </article>
-          <article class="work-card video-work-card">
-            <button class="video-launch" type="button" data-youtube="CN1IN8xlTVg" aria-label="Play Rumco - Building With Integrity">
-              <img src="assets/portfolio/stills/crew-location.webp" alt="Rumco - Building With Integrity">
-              <span class="card-play">▶</span>
-            </button>
+<article class="work-card">
+            <a class="video-launch" href="https://www.youtube.com/watch?v=CN1IN8xlTVg" target="_blank" rel="noopener" data-youtube="CN1IN8xlTVg" aria-label="Play Rumco - Building With Integrity">
+              <img src="https://i.ytimg.com/vi/CN1IN8xlTVg/maxresdefault.jpg" alt="Rumco - Building With Integrity" loading="lazy" decoding="async">
+              <span class="card-play" aria-hidden="true">▶</span>
+            </a>
             <h3>Rumco - Building With Integrity</h3>
           </article>
-          <article class="work-card video-work-card">
-            <button class="video-launch" type="button" data-youtube="oXOPxKmigKA" aria-label="Play Music Celebrations International - Ireland">
-              <img src="assets/portfolio/stills/event-hands.webp" alt="Music Celebrations International - Ireland">
-              <span class="card-play">▶</span>
-            </button>
+<article class="work-card">
+            <a class="video-launch" href="https://www.youtube.com/watch?v=oXOPxKmigKA" target="_blank" rel="noopener" data-youtube="oXOPxKmigKA" aria-label="Play Music Celebrations International - Ireland">
+              <img src="https://i.ytimg.com/vi/oXOPxKmigKA/maxresdefault.jpg" alt="Music Celebrations International - Ireland" loading="lazy" decoding="async">
+              <span class="card-play" aria-hidden="true">▶</span>
+            </a>
             <h3>Music Celebrations International - Ireland</h3>
           </article>
-          <article class="work-card video-work-card">
-            <button class="video-launch" type="button" data-youtube="pDk121-TCto" aria-label="Play Relentless Beats - Decadence Arizona 2025 Aftermovie">
-              <img src="assets/portfolio/stills/camera-crew.webp" alt="Relentless Beats - Decadence Arizona 2025 Aftermovie">
-              <span class="card-play">▶</span>
-            </button>
+<article class="work-card">
+            <a class="video-launch" href="https://www.youtube.com/watch?v=pDk121-TCto" target="_blank" rel="noopener" data-youtube="pDk121-TCto" aria-label="Play Relentless Beats - Decadence Arizona 2025 Aftermovie">
+              <img src="https://i.ytimg.com/vi/pDk121-TCto/maxresdefault.jpg" alt="Relentless Beats - Decadence Arizona 2025 Aftermovie" loading="lazy" decoding="async">
+              <span class="card-play" aria-hidden="true">▶</span>
+            </a>
             <h3>Relentless Beats - Decadence Arizona 2025 Aftermovie</h3>
           </article>
-          <article class="work-card video-work-card">
-            <button class="video-launch" type="button" data-youtube="QlP7wPaFcVU" aria-label="Play ITCA WIC - Dear Mom">
-              <img src="assets/portfolio/stills/dentist-consult.webp" alt="ITCA WIC - Dear Mom">
-              <span class="card-play">▶</span>
-            </button>
+<article class="work-card">
+            <a class="video-launch" href="https://www.youtube.com/watch?v=QlP7wPaFcVU" target="_blank" rel="noopener" data-youtube="QlP7wPaFcVU" aria-label="Play ITCA WIC - Dear Mom">
+              <img src="https://i.ytimg.com/vi/QlP7wPaFcVU/maxresdefault.jpg" alt="ITCA WIC - Dear Mom" loading="lazy" decoding="async">
+              <span class="card-play" aria-hidden="true">▶</span>
+            </a>
             <h3>ITCA WIC - Dear Mom</h3>
-          </article>
-        </div>
-
-        <div class="center">
-          <a class="button button-dark" href="portfolio.html">Portfolio <span>→</span></a>
-        </div>
+          </article></div>
+        <div class="center"><a class="button button-dark" href="portfolio.html">Portfolio <span aria-hidden="true">→</span></a></div>
       </div>
     </section>
 
@@ -135,31 +152,12 @@
       <div class="container">
         <h2>How we're different: SITREP</h2>
         <p class="section-lead wide">Before we pick up a camera, we figure out what's actually worth making. We map where your comms are landing, where they're failing, and which untold story has the highest probability of shifting perception. We call that map a Situation Report, aka SITREP.</p>
-
         <div class="sitrep-grid">
-          <article class="sitrep-card">
-            <span>01</span>
-            <h3>Ingest</h3>
-            <h4>Full-spectrum intelligence</h4>
-            <p>Internal data, audience intelligence, public sentiment, market signals, competitive positioning. Then wider: geopolitical factors, industry shifts, emerging narratives.</p>
-          </article>
-          <article class="sitrep-card">
-            <span>02</span>
-            <h3>Synthesize</h3>
-            <h4>AI-driven sense-making</h4>
-            <p>LLMs on the full data set. Blind spots in comms, trust gaps with audiences, narrative opportunities competitors missed.</p>
-          </article>
-          <article class="sitrep-card">
-            <span>03</span>
-            <h3>Execute</h3>
-            <h4>Documentary-grade production</h4>
-            <p>Real environments, real people, observational production. Distribution plan built alongside production.</p>
-          </article>
+          <article class="sitrep-card"><span>01</span><h3>Ingest</h3><h4>Full-spectrum intelligence</h4><p>Internal data, audience intelligence, public sentiment, market signals, competitive positioning. Then wider: geopolitical factors, industry shifts, emerging narratives.</p></article>
+          <article class="sitrep-card"><span>02</span><h3>Synthesize</h3><h4>AI-driven sense-making</h4><p>LLMs on the full data set. Blind spots in comms, trust gaps with audience, narrative opportunities competitors missed.</p></article>
+          <article class="sitrep-card"><span>03</span><h3>Execute</h3><h4>Documentary-grade production</h4><p>Real environments, real people, observational production. Distribution plan built alongside production.</p></article>
         </div>
-
-        <div class="center">
-          <a class="button button-light" href="sitrep.html">See how it works <span>→</span></a>
-        </div>
+        <div class="center"><a class="button button-light" href="sitrep.html">See how it works <span aria-hidden="true">→</span></a></div>
       </div>
     </section>
 
@@ -167,68 +165,38 @@
       <div class="container">
         <h2>The team</h2>
         <p class="section-lead wide">We built this company because we wanted to do work that actually matters, and stay close enough to the work to make sure it does.</p>
-
         <div class="team-grid">
-          <article class="team-card">
-            <img src="assets/team/tony-swainn.webp" alt="Tony Swainn">
-            <div class="team-copy">
-              <h3>Tony Swainn</h3>
-              <p>Co-Founder · Director/DP</p>
-            </div>
-          </article>
-          <article class="team-card">
-            <img src="assets/team/ari-everett.webp" alt="Ari Everett">
-            <div class="team-copy">
-              <h3>Ari Everett</h3>
-              <p>Co-Founder · Producer/Manager</p>
-            </div>
-          </article>
-          <article class="team-card">
-            <img src="assets/team/chris-kuzman.webp" alt="Chris Kuzman">
-            <div class="team-copy">
-              <h3>Chris Kuzman</h3>
-              <p>Co-Founder · Strategy</p>
-            </div>
-          </article>
+          <article class="team-card"><img src="assets/team/tony-swainn.webp" alt="Tony Swann" loading="lazy"><div class="team-copy"><h3>Tony Swann</h3><p>Co-Founder · Director/DP</p></div></article>
+          <article class="team-card"><img src="assets/team/ari-everett.webp" alt="Ari Everett" loading="lazy"><div class="team-copy"><h3>Ari Everett</h3><p>Co-Founder · Producer/Manager</p></div></article>
+          <article class="team-card"><img src="assets/team/chris-kuzman.webp" alt="Chris Kuzman" loading="lazy"><div class="team-copy"><h3>Chris Kuzman</h3><p>Co-Founder · Strategy</p></div></article>
         </div>
       </div>
     </section>
 
     <section class="section section-dark cta-section">
-      <div class="container">
-        <h2>Talk to us about your next project</h2>
-        <p>Let's chat about your market, your story and what working with us looks like.</p>
-        <a class="button button-light" href="contact.html">Message us <span>→</span></a>
-      </div>
+      <div class="container"><h2>Talk to us about your next project</h2><p>Let's chat about your market, your story and what working with us looks like.</p><a class="button button-light" href="contact.html">Message us <span aria-hidden="true">→</span></a></div>
     </section>
   </main>
   <div class="video-modal" id="video-modal" aria-hidden="true">
     <div class="video-modal-backdrop" data-video-close></div>
     <div class="video-modal-dialog" role="dialog" aria-modal="true" aria-label="Video player">
       <button class="video-modal-close" type="button" data-video-close aria-label="Close video">×</button>
-      <div class="video-frame-wrap"><iframe id="video-frame" title="Thrill Wave video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="video-frame-wrap"><iframe id="video-frame" title="Thrill Wave video player" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen></iframe></div>
     </div>
   </div>
-
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div>
-        <strong>Call</strong>
-        <a href="tel:+14802697155">480-269-7155</a>
-      </div>
-      <div>
-        <strong>Email</strong>
-        <a href="mailto:hi@thrillwave.com">hi@thrillwave.com</a>
-      </div>
-      <div>
-        <strong>Follow</strong>
-        <div class="social-row" aria-label="Social media">
-          <a href="https://www.linkedin.com/company/thrillwave" target="_blank" rel="noopener" aria-label="Thrill Wave on LinkedIn">in</a>
-        </div>
-      </div>
+      <div><strong>Call</strong><a href="tel:+14802697155">480-269-7155</a></div>
+      <div><strong>Email</strong><a href="mailto:hi@thrillwave.com">hi@thrillwave.com</a></div>
+      <div><strong>Follow</strong>
+        <div class="social-links" aria-label="Thrill Wave social media">
+          <a href="https://www.facebook.com/thrillwaveco" target="_blank" rel="noopener noreferrer" aria-label="Thrill Wave on Facebook">f</a>
+          <a href="https://x.com/thrillwave_" target="_blank" rel="noopener noreferrer" aria-label="Thrill Wave on X">𝕏</a>
+          <a href="https://www.linkedin.com/company/thrillwave" target="_blank" rel="noopener noreferrer" aria-label="Thrill Wave on LinkedIn">in</a>
+          <a href="https://www.instagram.com/thrillwave_" target="_blank" rel="noopener noreferrer" aria-label="Thrill Wave on Instagram">◎</a>
+        </div></div>
     </div>
   </footer>
-
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
