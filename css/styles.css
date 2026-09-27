@@ -16,7 +16,7 @@ button,input,textarea,select{font:inherit}
 .skip-link:focus{transform:translateY(0)}
 .site-header{position:relative;z-index:100;min-height:118px;padding:20px clamp(26px,4vw,70px);display:flex;align-items:center;justify-content:space-between;gap:32px;background:#fff}
 .brand{display:block;flex:0 0 auto}
-.brand img{width:150px}
+.brand img{width:150px;filter:brightness(0)}
 .site-nav{display:flex;align-items:center;gap:7px}
 .site-nav a{padding:9px 15px;border:1.5px solid #000;border-radius:10px;background:#000;color:#fff;font-size:.74rem;font-weight:900;line-height:1;text-decoration:none;text-transform:uppercase;letter-spacing:.02em;transition:background .18s ease,color .18s ease,transform .18s ease}
 .site-nav a:hover,.site-nav a:focus-visible,.site-nav a.active{background:#fff;color:#000}
